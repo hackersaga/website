@@ -1,0 +1,186 @@
+body{
+	margin:0px;
+	position: absolute;
+	overflow-x: scroll;
+}
+
+#profile_header{
+	background-color: black;
+	color:white;
+	font-size: 14px;
+	height: 30px;
+	
+	padding:5px;
+	padding-right: 15px;
+
+}
+
+#profile_header1{
+	float: right;
+	display: block;
+	margin-right: 5%;
+}
+
+.profile_header {
+	display:inline-block;
+	border: 0px solid white;
+	padding-left:12px;
+	padding-right:12px;
+	margin-top: 4px;	
+}
+
+
+#profile_tabs{
+	background-color: white;
+	color:white;
+	font-size: 14px;
+	height: 30px;
+	padding:5px;
+	position: relative;
+}
+
+#tabs{
+	display: inline-block;
+	position: absolute;
+	float:right;
+	bottom: 0px;
+	right:60px;
+}
+
+.tabs_element{
+	padding: 0px 10px 0px 10px ;
+	margin-left: 20px;
+	background-color: gray;
+	border-radius: 10px;
+	color:black;
+	font-size: 16px;
+}
+
+#profile_body{
+	background-color:#EDE9E6;
+	display: inline-block;
+	padding: 4%;	
+	border:3px solid black;
+	position: relative;
+	vertical-align: top;
+}
+
+#user_info{
+	width:100%%;
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	padding:30px 2%;
+	height:300px;
+}
+
+#user_pic{
+	vertical-align: top;
+	
+	position: relative;
+	display: inline-block;
+	
+}
+
+.user_pic{
+	vertical-align: top;
+	display: inline-block;
+}
+
+#user_name_gender{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	margin-top: 2%;
+	margin-left: 4%;
+	
+}
+
+#user_name{
+	font-size: 40px;
+	margin-top: -15px;
+	vertical-align: top;
+}
+
+#user_gender{
+	font-size: 15px;
+	margin-top: 2%;
+	margin-left: 120%;
+}
+
+#profile_item{
+	display: inline-block;
+	border: 1px solid black;
+}
+
+
+.item{
+	margin-bottom:50px;
+	display: inline-block;
+	width:100%;
+	position:relative;
+	padding:5px;
+	vertical-align: top;
+	background-color: white;
+	border:0px solid black
+
+}
+
+.img{
+	width: 100%;
+}
+
+.title{
+	height:30px;
+	padding:3px;
+	border:0px solid black;
+	position: relative;
+}
+
+.description{
+	height: 60px;
+	padding:3px;
+	border:0px solid black;
+	position:relative;
+}
+
+.circle{
+	width: 20px;
+    height: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+.colors{
+	top:3px;
+	right:3px;
+	position: absolute;
+}
+
+#col1{
+	border: 1px solid black;
+	width: 45%;
+	display: inline-block;
+	margin-left: 2%;
+	padding:2px;
+}
+
+#col2{
+	border: 1px solid black;
+	width: 20%;
+	margin-left: 2%;
+	display: inline-block;
+	padding:2px;
+}
+
+#col3{
+	border: 1px solid black;
+	width: 20%;
+	display: inline-block;
+	margin-left: 2%;
+	padding:2px;
+}

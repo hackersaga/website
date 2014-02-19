@@ -1,0 +1,213 @@
+body{
+	background-image: url('../img/item/backdrop.png');	
+	background-position: right bottom;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+}
+
+#products{
+	width: 300px;
+	margin-left: 20px;
+	border: 0px solid black;
+	display: inline-block;
+	
+	
+}
+
+#title{
+	margin: 30px 0px 20px 0px ;
+	font-size: 20px;
+	border: 0px solid black;
+}
+
+#title:first-letter{
+	text-transform: capitalize;
+}
+
+#left_arrow{
+	display: inline-block;
+	margin-left: 80px;
+	vertical-align: top;
+	padding-top: 260px;
+	border: 0px solid red;
+}
+
+#right_arrow{
+	top: 258px;
+	position: absolute;
+}
+
+#container{
+	border: 0px solid black;
+
+	
+
+}
+
+#details{
+	display: inline-block;
+	width: 400px;
+	font-size: 12px;
+	margin-left: 30px;
+	vertical-align: top;
+	border: 0px solid black;
+	position: relative;
+
+}
+
+#description{
+	margin-top: 120px;
+}
+
+#price_div{
+	font-size: 16px;
+	margin-top: 0px;
+	position: absolute;
+	top:396px;
+}
+
+#options{
+	top: 446px;
+	position: absolute;
+}
+
+#button_add{
+	top: 486px;
+	position: absolute;
+}
+
+.checkout{
+	position: fixed;
+	bottom:0px;
+	right: 0px;
+
+
+
+}
+
+#photo{
+	border: 0px solid black;
+}
+
+#instruction{
+	color:red;
+	margin-left: 20px;
+}
+
+/*---------------------- Zoom effect --------------------*/
+.image-normal {
+	width: 300px;
+
+	
+}
+
+.image-normal:hover{
+		cursor: crosshair;
+	}
+
+.image-zoom{
+	width: 50%;
+	height: 20%;
+	float: left;
+	display: inline-block;
+}
+
+.img{
+
+}
+
+
+
+
+.zoomed{
+	padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	margin-left: 35px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	background: rgba(255,255,255,1);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+/*	-webkit-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    -moz-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    -o-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+*/}
+
+
+ .tint {
+    background: rgb(0,0,0);
+   	opacity: 0.0;
+    position: absolute;
+    display: inline-block;
+    border: 0px solid red;
+    -webkit-transition:opacity 0.3 ease;
+    -moz-transition:opacity 0.3 ease;
+    -o-transition:opacity 0.3 ease;
+    transition:opacity 1s ease;
+  }
+
+.lens{
+	width: 125px;
+	height: 125px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	z-index: 200;
+	overflow: hidden;
+	border: 5px solid #888;
+	-webkit-box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	-moz-box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+/*	-webkit-transition:left 0ms linear, tonear, visibility 1000ms linear;*/
+}
+
+.large_image{
+	-webkit-transition:all 0ms ease;
+    -moz-transition:all 0ms ease;
+    -o-transition:all 0ms ease;
+    transition:all 0ms ease;	
+}
+
+#normal{
+
+}
+
+.border{
+	border: 0px solid black;
+}
+
+.head2{
+	background-image: url('../img/item/banner.png');	
+	background-position: right top;
+	background-repeat: no-repeat;	
+	
+}
+
+#head2{
+	background-color: white;
+}
+
+
+#search > input{
+	height: 20px;
+}
+
+#top_logo{
+	margin-left: 120px;
+}
+
+#status{
+	margin-bottom: 5px;
+}
+
+#price_div > div > span:hover {
+	opacity: 0.7;
+}
+
+#share{
+	top: 540px;
+	position: absolute;
+	margin-bottom: 5px;
+}

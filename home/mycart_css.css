@@ -1,0 +1,222 @@
+body{
+	margin:0px;
+	position: relative;
+	overflow-x: scroll;
+	width: 100%;
+	min-height: 100%;
+}
+
+#container{
+	padding-right: 40px;
+	padding-top: 70px;
+	border: 0px solid black;
+	padding-bottom: 30px;
+	margin-left: 150px;
+	position: relative;
+	height: auto;
+	min-height: 300px;
+}
+
+.cart_item{
+	width: 200px;
+	border: 0px solid black;
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	padding: 5px;
+	margin-left: 10px;
+	vertical-align: top;
+	margin-bottom: 60px;
+	border: 1px solid #E0E6F8;
+	border-left: 3px solid #E0E6F8;
+	border-bottom: 4px solid #E0E6F8;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.remove{
+	font-size: 20px;
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	color: gray;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.cart_image{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.cart_image img{
+	width: 100%;
+}
+
+.cart_price{
+	margin-top: 20px;
+	font-size: 13px;
+	font-family: "swiss" !important;
+}
+
+.cart_price > span{
+	font-family: "swiss" !important;
+}
+
+.cart_edit{
+	padding: 2px 5px;
+	background-color: gray;
+	font-size: 14.4px;
+	display: inline-block;
+	cursor: pointer;
+	color:white;
+	font-family: "swiss" !important;
+}	
+
+.cart_specs{
+	font-family: "swiss" !important;
+}
+
+#checkout{
+	right: 40px;
+}
+
+#proceed{
+	background-color: black;
+	color: white;
+	font-size: 14px;
+	position: relative;
+}
+
+.cart_edit_hover1{
+	background-color: white;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100px;
+	
+}
+
+.cart_edit_hover2{
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 200px;
+}
+
+
+.cart_edit_option{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left: -35%;
+	margin-top: -35%;
+
+}
+
+.cart_edit_option select{
+	background-color: white;
+	margin-bottom: 10px;
+	width: 150px;
+	opacity: 1;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.buttons{
+	width: 150px;
+	opacity: 1;
+	color: white;
+}
+
+.hover_button1{
+	background-color: black;
+	padding: 2px 15px;
+	display: inline-block;
+	float: left;
+	
+}
+
+.hover_button2{
+	background-color: black;
+	padding: 2px 15px;
+	display: inline-block;
+	float: right;
+}
+
+.column{
+	padding-left: 0px;
+	margin-right: 35px;
+}
+
+
+.checkout_table{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+
+}
+
+#container table{
+	font-size: 14px;
+}
+
+#container  table  tr  td{
+	padding: 3px 20px;
+	text-align: center;	
+	font-family: "swiss" !important;
+}
+
+#container  table  tr  td > span{
+	font-family: "swiss" !important;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+#proceed_button{
+	
+	color: white;
+	border-spacing: 10px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#proceed_button a{
+	color: white;
+}
+
+#proceed_button:hover{
+	text-decoration: underline;
+}
+
+#continue_button{
+	
+	text-align: center;
+}
+
+#continue_button:hover{
+	text-decoration: underline;
+}
+
+
+#continue_button>div>a:hover, #continue_button>div>a:visited, #continue_button>div>a:link, #continue_button>div>a:active{
+	color: black;
+	text-decoration: none !important;
+}
+
+#no_elem{
+	font-size: 15px;
+}
+#top_logo{
+	margin-left: 120px;
+}

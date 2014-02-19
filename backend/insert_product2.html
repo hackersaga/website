@@ -1,0 +1,81 @@
+<html>
+<head>
+	<style type="text/css">
+		#tags{
+			background-color:#F2F2F2;
+		}
+		
+		#fabrics{
+			background-color:#F2F2F2;
+		}
+		
+	</style>
+	<script src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		function addTags(){
+			var x = $("#select1").val();
+			if($("#tags").val().indexOf(x)==-1){
+				$("#tags").append(x+",");
+			}	
+		}
+		
+		function addFabrics(){
+			var x = $("#select2").val();
+			if($("#fabrics").val().indexOf(x)==-1){
+				$("#fabrics").append(x+",");
+			}	
+		}
+	</script>
+</head>
+<body>
+<h2>Insert a product</h2>
+<form action="product.php" method="post" enctype="multipart/form-data">
+Browse the file: <input type="file" name="file" size="2000" required/><br>
+<hr>
+Title of the product: <input type="text" name="title" required/><br>
+<hr>
+Description : <br><textarea type="text" rows="2" cols="100" name="description" required></textarea><br>
+<hr>
+Price of the product: <input type="number" name="price" required/><br>
+<hr>
+Pick the product color code from <a href="http://html-color-codes.info/"> This Website </a><br>
+<p>Insert values separated by ',': </p> <textarea name="color"  rows="2" cols="50" background="#D8D8D8" autocomplete="on" required></textarea><br>
+<hr>
+<p><b>Tags</b></p>
+<select id="select1">
+	<option value="Women">Women</option>
+	<option value="Dresses">Dresses</option>
+	<option value="Bottom">Bottoms</option>
+	<option value="Tops">Tops</option>
+	<option value="Pants">Pants</option>
+	<option value="Shorts">Shorts</option>
+	<option value="Skirts">Skirts</option>
+	<option value="Jumpsuites">Jumpsuite</option>
+	<option value="Footwears">Footwear</option>
+	<option value="Bumlbe Bee">Bumble Bee</option>
+	<option value="Winter Wear">Winter Wear</option>
+	<option value="Cardigans">Cardigan</option>
+	<option value="Jackets">Jackets</option>
+	<option value="Sweaters">Sweaters</option>	
+</select>
+<button type="button" onclick="addTags()">Add more</button>
+<br>
+<textarea id="tags" name="tags"  rows="2" cols="50" autocomplete="on" required></textarea>
+<hr>
+<p><b>Fabrics</b></p>
+<select id="select2">
+	<option value="Cotton">Cotton</option>
+	<option value="Rayon">Rayon</option>
+	<option value="Polyster">Polyster</option>
+	<option value="Fiber">Fiber</option>
+</select>
+<button type="button" onclick="addFabrics()">Add more</button><br>
+<textarea id="fabrics" name="fabrics" rows="2" cols="50" autocomplete="on" required/></textarea>
+
+
+<br>
+<br>
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>

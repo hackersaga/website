@@ -1,0 +1,41 @@
+<html>
+<head>
+	<style type="text/css">
+		#tags{
+			background-color:#F2F2F2;
+		}
+		
+		#fabrics{
+			background-color:#F2F2F2;
+		}		
+	</style>
+	<script src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		function additem(){
+			var x = $("#add").val();
+			if($("#tags").val().indexOf(x)==-1){
+				$("#tags").append(x+",");
+			}	
+		}
+		
+
+	</script>
+</head>
+<body>
+
+<h2>Add item to home</h2>
+<hr>
+<br>
+<input id="add" type="number" name="add"/>
+<button type="button" onclick="additem()">Add item</button>
+
+<br>
+
+<form action="x.php" method="post" enctype="multipart/form-data">
+<textarea id="items" name="items"  rows="3" cols="50" autocomplete="on" required></textarea>
+<hr>
+
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>

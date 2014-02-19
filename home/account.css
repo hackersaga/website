@@ -1,0 +1,149 @@
+body{
+	background-image: url('../img/tg.jpg');
+}
+
+#container{
+	border:0px solid black;
+	width: 485px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	height: auto;
+	padding-bottom: 30px;
+}
+#container > form{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.attr_name{
+	width: 150px;
+	display: inline-block;
+}
+
+.inputbox{
+	display: inline-block;
+
+}
+
+.inputbox input{
+	width: 250px;
+	border-radius: 0;
+}
+
+.inputbox textarea{
+	width: 250px;
+
+}
+
+
+.row1{
+	margin-bottom: 10px;
+}
+
+#address{
+	margin-top: 30px;
+}
+
+#address textarea{
+	border-radius: 0;
+	outline:none;
+}
+
+.row1 select{
+	background-color: white;
+	width: 250px;
+
+}
+
+#text_payment{
+	font-size: 12px;
+	margin-top: 30px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid gray;
+}
+
+#billing{
+	position: relative;
+	background-color: white
+}
+
+#payment_option{
+	font-size: 13px;
+	position: absolute;
+	top: 20px;
+}
+
+#payment_option input{
+	margin-bottom: 10px;
+}
+
+.radio_input{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.text_input{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.text_input input{
+
+}
+
+.checkout_table{
+	position: absolute;
+	right: -40px;
+	top: 20px;
+	margin-bottom: 20px;
+}
+
+.checkout_table table{
+	font-size: 14px;
+}
+
+.checkout_table  table  tr  td{
+	padding: 3px 20px;
+	text-align: center;	
+
+}
+
+
+#confirm{
+	
+	text-align: center;
+	color: white;
+	
+}
+
+#confirm:hover{
+	text-decoration: underline;
+}
+
+#instruction{
+	color:red;
+
+}
+
+#middle{
+	background-color: white;
+	display: inline-block;
+}
+
+#logo_site{
+	margin-bottom: 30px;
+}
+
+.inputbox > input{
+	
+	margin-bottom: 0px;
+}
+
+#error_text{
+	color:red;
+}
+
+.cursor{
+	cursor: pointer;
+}

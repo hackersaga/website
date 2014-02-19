@@ -1,0 +1,177 @@
+.account{
+	padding: 1%;
+	margin:  5% auto ;
+	width: 80%;
+	height: 60%;
+	overflow: auto;
+	position:relative;
+	font-size: 14px;
+	font-family: sans-serif;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	*border-bottom-width: 2px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;	
+
+}
+
+.account .left {
+	width: auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-right: 2%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	float: left;
+	display: inline-block;
+}
+
+.account .left > ul {
+	width: auto;	
+	list-style-type:none;
+	list-style-position: inherit;
+	padding: 0px;
+
+}
+
+.account .left >li {
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-transition: background-color 2s ease-in-out;
+	-moz-transition: background-color 2s ease;
+	-o-transition: background-color 2s ease;
+	transition: background-color 2s ease;
+	list-style: none;
+}
+
+.account .left  >li:hover {
+	background-color: #98AFC7;
+}
+
+.account .left  >li:active {
+	background-color: #5CB3FF;
+}
+
+.account .left  > li  a{
+	-webkit-transition: margin 0.5s ease;
+	-moz-transition: margin 0.5s ease;
+	-o-transition: margin 0.5s ease;
+	transition: margin 0.5s ease;
+	margin:0px 25px 0px 25px;
+}
+
+.account .left  > li  a:hover{
+	margin:0px 15px 0px 35px;
+}
+
+.account .left  > li  a:visited{
+	margin:0px 15px 0px 35px;
+	background-color: #5CB3FF;
+}
+
+.account .right {
+	width: auto;
+	height: inherit;
+	padding: 0px 2%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.account .right .title{
+	font-size: 20px;
+	font-weight: bold;
+	margin:5px 0px 5px 0px;
+}
+
+.account .right .footer{		
+	padding: 10px 0px;
+}
+
+
+.image-normal {
+	width: 300px;	
+	float: left;
+	display: block;
+	
+	
+}
+
+.image-normal:hover{
+		cursor: crosshair;
+	}
+
+.image-zoom{
+	width: 50%;
+	height: 20%;
+	float: left;
+	display: inline-block;
+}
+
+.img{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+
+
+
+.zoomed{
+	padding: 0px;
+	position: absolute;
+	overflow: hidden;
+	margin-left: 20px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+/*	-webkit-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    -moz-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    -o-transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+    transition:left 400ms ease, top 400ms ease,width 400ms ease, height 400ms ease;
+*/}
+
+
+ .tint {
+    background: rgb(0,0,0);
+   opacity: 0.0;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    -webkit-transition:opacity 0.3 ease;
+    -moz-transition:opacity 0.3 ease;
+    -o-transition:opacity 0.3 ease;
+    transition:opacity 1s ease;
+  }
+
+.lens{
+	width: 130px;
+	height: 160px;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	z-index: 200;
+	overflow: hidden;
+	border: 5px solid #888;
+/*	-webkit-box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	-moz-box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	box-shadow:   box-shadow: -0px -0px 10px rgba(0,0,0,0.40);
+	-webkit-transition:left 0ms linear, tonear, visibility 1000ms linear;*/
+}
+
+.large_image{
+	-webkit-transition:all 0ms ease;
+    -moz-transition:all 0ms ease;
+    -o-transition:all 0ms ease;
+    transition:all 0ms ease;	
+}
